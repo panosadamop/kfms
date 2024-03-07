@@ -15,7 +15,7 @@ Developement Ribbon
   transform: rotate(-45deg);
   overflow: hidden;
   position: absolute;
-  top: 30px;
+  top: 10px;
   white-space: nowrap;
   width: 15em;
   z-index: 99999;
@@ -57,11 +57,11 @@ Navbar styles
     text-decoration: none;
   }
   .brand-icon {
-    height: 35px;
+    height: 25px;
     width: auto;
     display: inline-block;
     img {
-      height: 45px;
+      height: 65px;
     }
   }
 }

@@ -48,6 +48,8 @@ public class CacheConfiguration {
             createCache(cm, gr.kotsovolos.kfms.domain.User.class.getName());
             createCache(cm, gr.kotsovolos.kfms.domain.Authority.class.getName());
             createCache(cm, gr.kotsovolos.kfms.domain.User.class.getName() + ".authorities");
+            createCache(cm, gr.kotsovolos.kfms.domain.Form.class.getName());
+            createCache(cm, gr.kotsovolos.kfms.domain.FormTypes.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -310,4 +310,13 @@ http://stackoverflow.com/questions/23436430/bootstrap-3-input-group-100-width */
   width: 1% !important;
 }
 
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: #d51317 !important;
+}
+.navbar {
+  padding-top: 0rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
 /* jhipster-needle-scss-add-main JHipster will add new css style */

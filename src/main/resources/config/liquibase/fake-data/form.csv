@@ -1,0 +1,11 @@
+id;form_name;form_description;form_data;version;is_deleted;is_locked;create_date;update_date
+1;Κατεψυγμένο Μηχανικός;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;navigating;false;true;2024-03-06;2024-03-06
+2;Republic;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;Αδιάλειπτη;false;false;2024-03-06;2024-03-06
+3;Ποδήλατο μεθοδολογίες;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;επανεφεύρουμε;false;false;2024-03-06;2024-03-07
+4;THX ανοιχτή Δεδομένα;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;επαναπροσδιορίσει Spring Ομορφιά;false;false;2024-03-07;2024-03-06
+5;Μάρκετινγκ βιολετί JSON;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;Ευρώ;false;true;2024-03-06;2024-03-06
+6;Φανταστικό επιταχύνει;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;πληρωμή Islands;true;false;2024-03-06;2024-03-07
+7;RSS Κοζάνη;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;τοπικό;false;true;2024-03-07;2024-03-07
+8;αναλάβουν οδηγός;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;πορτοκαλί Διαχειριστής;false;true;2024-03-07;2024-03-06
+9;USB;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;SAS εικονική Ευρώ;true;false;2024-03-07;2024-03-07
+10;Προβάδισμα αντιγραφή πληρωμή;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;Φρέσκο;false;true;2024-03-06;2024-03-06

@@ -1,0 +1,25 @@
+{
+  "applications": "*",
+  "changelogDate": "20240307110034",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "form_types",
+  "fields": [
+    {
+      "fieldName": "type",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "FormTypes",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

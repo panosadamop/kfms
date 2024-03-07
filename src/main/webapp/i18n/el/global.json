@@ -1,12 +1,14 @@
 {
   "global": {
-    "title": "Kfms",
+    "title": "Forms Manager",
     "browsehappy": "Χρησιμοποείται ένα <strong>απαρχαιωμένο</strong> πρόγραμμα περιήγησης. Παρακαλώ <a href=\"http://browsehappy.com/?locale=en\">αναβαθμίστε το πρόγραμμα περιήγησης σας</a> να βελτιωθεί η εμπειρία σας.",
     "menu": {
       "home": "Home",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "form": "Form",
+        "formTypes": "Form Types",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
