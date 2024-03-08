@@ -55,9 +55,6 @@ export const Home = () => {
             </Alert>
           </div>
         )}
-        <p>
-          <Translate contentKey="home.question">If you have any question on JHipster:</Translate>
-        </p>
       </Col>
     </Row>
   );

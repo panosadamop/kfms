@@ -7,7 +7,7 @@ export const DynamicControl = ({ inputType, fieldName, defaultValue, options = [
 
   switch (inputType) {
     case 'text':
-      return <input type="text" {...register(fieldName, config)} defaultValue={defaultValue} />;
+      return <input id={fieldName} type="text" {...register(fieldName, config)} defaultValue={defaultValue} />;
     case 'select': {
       return (
         <select {...register(fieldName, config)} defaultValue={defaultValue} name={fieldName} id={fieldName}>
@@ -20,7 +20,7 @@ export const DynamicControl = ({ inputType, fieldName, defaultValue, options = [
       );
     }
     case 'number':
-      return <input type="number" {...register(fieldName, config)} defaultValue={defaultValue} />;
+      return <input type="number" id={fieldName} {...register(fieldName, config)} defaultValue={defaultValue} />;
     default:
       return <input type="text" />;
   }

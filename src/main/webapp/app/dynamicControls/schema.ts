@@ -6,12 +6,19 @@ export const fields: DynamicFieldData[] = [
     inputType: 'text',
     label: 'Name',
     defaultValue: '',
+    config: {
+      required: 'Required',
+    },
   },
   {
-    fieldName: 'foufoutos',
+    fieldName: 'age',
     inputType: 'number',
-    label: 'foufoutos',
+    label: 'Age',
     defaultValue: 18,
+    config: {
+      required: 'Required',
+      validate: value => value >= 18 || 'Still a minor',
+    },
   },
   {
     fieldName: 'language',
