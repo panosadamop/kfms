@@ -1,0 +1,22 @@
+entity Form {
+    formName String required
+    formDescription TextBlob
+    formData TextBlob
+    version String required
+    isDeleted Boolean
+    isLocked Boolean
+    createDate LocalDate required
+    updateDate LocalDate
+}
+
+entity FormTypes{
+    type String required
+    description String
+}
+
+relationship ManyToOne {
+    Form{formType(type)} to FormTypes
+}
+
+paginate all with pagination
+service all with serviceImpl

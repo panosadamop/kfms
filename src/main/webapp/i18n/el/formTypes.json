@@ -1,0 +1,25 @@
+{
+  "kfmsApp": {
+    "formTypes": {
+      "home": {
+        "title": "Form Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Form Types",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Form Types",
+        "notFound": "No Form Types found"
+      },
+      "created": "Ένα νέο Form Types έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Form Types έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Form Types έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Form Types {{ id }};"
+      },
+      "detail": {
+        "title": "Form Types"
+      },
+      "id": "ID",
+      "type": "Type",
+      "description": "Description"
+    }
+  }
+}

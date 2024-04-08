@@ -1,0 +1,32 @@
+{
+  "kfmsApp": {
+    "form": {
+      "home": {
+        "title": "Forms",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Form",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Form",
+        "notFound": "No Forms found"
+      },
+      "created": "Ένα νέο Form έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Form έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Form έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Form {{ id }};"
+      },
+      "detail": {
+        "title": "Form"
+      },
+      "id": "ID",
+      "formName": "Form Name",
+      "formDescription": "Form Description",
+      "formData": "Form Data",
+      "version": "Version",
+      "isDeleted": "Is Deleted",
+      "isLocked": "Is Locked",
+      "createDate": "Create Date",
+      "updateDate": "Update Date",
+      "formType": "Form Type"
+    }
+  }
+}

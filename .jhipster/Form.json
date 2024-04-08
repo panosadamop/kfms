@@ -1,0 +1,58 @@
+{
+  "annotations": {
+    "changelogDate": "20240408104353"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "formName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "formDescription",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "formData",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "version",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "isDeleted",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "isLocked",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updateDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "Form",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityField": "type",
+      "otherEntityName": "formTypes",
+      "relationshipName": "formType",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
